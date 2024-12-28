@@ -104,14 +104,15 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    justifyContent:'space-between',
     backgroundColor: '#25292e',
     alignItems: 'center',
   },
   imageContainer: {
-   
+   flex:2/3,
   },
   footerContainer: {
-    flex:1/3,
+   
     alignItems: 'center',
     padding:20,
   },
